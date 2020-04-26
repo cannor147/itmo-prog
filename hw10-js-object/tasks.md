@@ -2,34 +2,34 @@
 
 1. Разработайте классы `Const`, `Variable`, `Add`, `Subtract`, `Multiply`, `Divide`, `Negate` для представления выражений с одной переменной.
     1. Пример описания выражения `2x-3`:
-        ```
-                        var expr = new Subtract(
-                            new Multiply(
-                                new Const(2),
-                                new Variable("x")
-                            ),
-                            new Const(3)
-                        );
-       ```    
+        ```javascript
+        var expr = new Subtract(
+        	new Multiply(
+        		new Const(2),
+        		new Variable("x")
+        	),
+        	new Const(3)
+        );
+       ```
     2. Метод `evaluate(x)` должен производить вычисления вида: При вычислении такого выражения вместо каждой переменной подставляется значение `x`, переданное в качестве параметра функции `evaluate` (на данном этапе имена переменных игнорируются). Таким образом, результатом вычисления приведенного примера должно стать число `7`.
     3. Метод `toString()` должен выдавать запись выражения в [обратной польской записи](https://en.wikipedia.org/wiki/Reverse_Polish_notation). Например, `expr.toString()` должен выдавать `2 x * 3 -`.
 2. **Усложненный вариант.**
     Метод `diff("x")` должен возвращать выражение, представляющее производную исходного выражения по переменной `x`. Например, `expr.diff("x")` должен возвращать выражение, эквивалентное `new Const(2)` (выражения `new Subtract(new Const(2), new Const(0)`) и
-    ```
-                    new Subtract(
-                        new Add(
-                            new Multiply(new Const(0), new Variable("x")),
-                            new Multiply(new Const(2), new Const(1))
-                        )
-                        new Const(0)
-                    )
+    ```javascript
+    new Subtract(
+    	new Add(
+    		new Multiply(new Const(0), new Variable("x")),
+    		new Multiply(new Const(2), new Const(1))
+    	),
+    	new Const(0)
+    )
    ```
     так же будут считаться правильным ответом).
-    
+   
     Функция parse должна выдавать разобранное объектное выражение.
 
 3. **Бонусный вариант.** Требуется написать метод `simplify()`, производящий вычисления константных выражений. Например,
-    ```
+    ```javascript
     parse("x x 2 - * 1 *").diff("x").simplify().toString()
    ```
     должно возвращать «`x x 2 - +`».
