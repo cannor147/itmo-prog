@@ -9,3 +9,6 @@
 /__test_hash.txt
 /__test_hello.txt
 /input.txt
+
+target/
+.idea/
