@@ -14,7 +14,7 @@
 1. Хэширование
 
    * **примерные темы:** _основы программирования_
-   * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw01-hash/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw01-hash)
+   * [условия](hw01-hash/tasks.md), [решение](hw01-hash)
    * для запуска тестов использовать класс:
      `CalcMD5Test`
    * для запуска тестов использовать класс:
@@ -34,7 +34,7 @@
 5. Вычисление выражений
 
    * **примерные темы:** _введение в ООП_
-   * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw05-expression/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw05-expression)
+   * [условия](hw05-expression/tasks.md), [решение](hw05-expression)
    * запуск тестов для базовой модификации:
      `ExpressionTest`
    * запуск тестов для простой модификации:
@@ -44,7 +44,7 @@
 6. Разбор выражений
 
    * **примерные темы:** _синтаксис Java_
-   * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw06-parser/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw06-parser)
+   * [условия](hw06-parser/tasks.md), [решение](hw06-parser)
    * запуск тестов для базовой модификации:
      `ParserTest`
    * запуск тестов для простой модификации:
@@ -54,7 +54,7 @@
 7. Обработка ошибок
 
    * **примерные темы:** _обработка ошибок, exceptions_
-   * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw07-exception/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw07-exception)
+   * [условия](hw07-exception/tasks.md), [решение](hw07-exception)
    * запуск тестов для базовой модификации:
      `ExceptionsTest`
    * запуск тестов для простой модификации:
@@ -63,7 +63,7 @@
      `ExceptionsPowLogTest`
 8. Вычисление в различных типах
    * **примерные темы:** _generics_
-   * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw08-generics/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw08-generics)
+   * [условия](hw08-generics/tasks.md), [решение](hw08-generics)
    * запуск тестов для базовой модификации:
      `GenericTest`
    * запуск тестов для простой модификации:
@@ -73,7 +73,7 @@
 9. Функциональные выражения на JavaScript
 
    * **примерные темы:** _функции в JavaScript_
-   * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw09-js-functional/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw09-js-functional)
+   * [условия](hw09-js-functional/tasks.md), [решение](hw09-js-functional)
    * запуск тестов для базовой модификации:
      `FunctionalExpressionTest easy` или `FunctionalExpressionTest hard`
    * запуск тестов для сложной модификации:
@@ -82,7 +82,7 @@
 10. Объектные выражения на JavaScript
 
     * **примерные темы:** _объекты и методы в JavaScript_
-    * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw10-js-object/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw10-js-object)
+    * [условия](hw10-js-object/tasks.md), [решение](hw10-js-object)
     * запуск тестов для базовой модификации:
       `ObjectExpressionTest easy` или `ObjectExpressionTest hard`
     * запуск тестов для первой модификации:
@@ -93,7 +93,7 @@
 11. Обработка ошибок на JavaScript
 
     * **примерные темы:** _обработка ошибок в JavaScript_
-    * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw11-js-error/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw11-js-error)
+    * [условия](hw11-js-error/tasks.md), [решение](hw11-js-error)
     * запуск тестов для базовой модификации:
       `PrefixParserTest easy` или `PrefixParserTest hard`
     * запуск тестов для простой модификации:
@@ -104,7 +104,7 @@
 12. Линейная алгебра на Clojure
 
     * **примерные темы:** _функции в Clojure_
-    * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw12-clj-linear/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw12-clj-linear)
+    * [условия](hw12-clj-linear/tasks.md), [решение](hw12-clj-linear)
     * запуск тестов для базовой модификации:
       `LinearBinaryTest`
     * запуск тестов для простой модификации:
@@ -114,7 +114,7 @@
     * в качестве рабочей директории при запуске тестов указывать `hw12-clj-linear/src`
 13. Функциональные выражения на Clojure
     * **примерные темы:** _внешний мир в Clojure_
-    * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw13-clj-functional/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw13-clj-functional)
+    * [условия](hw13-clj-functional/tasks.md), [решение](hw13-clj-functional)
     * запуск тестов для базовой модификации:
       `ClojureFunctionalExpressionTest easy` или `ClojureFunctionalExpressionTest hard`
     * запуск тестов для первой модификации:
@@ -122,7 +122,7 @@
     * в качестве рабочей директории при запуске тестов указывать `hw13-clj-functional/src`
 14. Объектные выражения на Clojure
     * **примерные темы:** _объекты в Clojure_
-    * [условия](https://github.com/cannor147/itmo-prog/tree/master/hw14-clj-object/tasks.md), [решение](https://github.com/cannor147/itmo-prog/tree/master/hw14-clj-object)
+    * [условия](hw14-clj-object/tasks.md), [решение](hw14-clj-object)
     * запуск тестов для базовой модификации:
       `ClojureObjectExpressionTest easy` или `ClojureObjectExpressionTest hard`
     * запуск тестов для модификации:
