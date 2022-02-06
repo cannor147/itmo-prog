@@ -71,4 +71,4 @@
     
 ## Полезные ссылки
 
-* [Страница курса](http://www.kgeorgiy.info/courses/paradigms/)
+* [Страница курса "Парадигмы программирования" на сайте Г.А. Корнеева](http://www.kgeorgiy.info/courses/paradigms/)
