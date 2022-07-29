@@ -1,10 +1,10 @@
-# Парадигмы программирования
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md) [![en](https://img.shields.io/badge/lang-ru-blue.svg)](README.ru.md)
 
-## Сведения о курсе
+# Парадигмы Программирования
 
-Курс читался [Георгием Корнеевым](https://github.com/kgeorgiy) в Университете ИТМО в 2018 году (year2017, 2 семестр).
+Курс подготовил и прочитал [Георгий Корнеев](https://github.com/kgeorgiy) в Университете ИТМО в 2018 году (year2017, 2 семестр).
 
-## Настройка проекта
+## Настройка проекта в IntelliJ IDEA
 
 1. Откройте весь репозиторий как один проект.
 2. В папке каждого домашнего задания пометьте директорию `src` как Sources Root.
@@ -37,7 +37,7 @@
     * запуск тестов для базовой модификации: `ExceptionsTest`
     * запуск тестов для простой модификации: `ExceptionsPowLog10Test`
     * запуск тестов для сложной модификации: `ExceptionsPowLogTest`
-8. Вычисление в различных типа ([условия](hw08-generics/tasks.md), [решение](hw08-generics))
+8. Вычисление в различных типах ([условия](hw08-generics/tasks.md), [решение](hw08-generics))
     * запуск тестов для базовой модификации: `GenericTest`
     * запуск тестов для простой модификации: `GenericUlsTest`
     * запуск тестов для сложной модификации: `GenericCmmUlsTest`
@@ -62,7 +62,7 @@
     * в качестве рабочей директории при запуске тестов указывать `hw12-clj-linear/src`
 13. Функциональные выражения на Clojur ([условия](hw13-clj-functional/tasks.md), [решение](hw13-clj-functional))
     * запуск тестов для базовой модификации: `ClojureFunctionalExpressionTest easy` или `ClojureFunctionalExpressionTest hard`
-    * запуск тестов для первой модификации: `ClojureFunctionalSinhCoshTest easy` или `ClojureFunctionalSinhCoshTest hard`
+    * запуск тестов для модификации: `ClojureFunctionalSinhCoshTest easy` или `ClojureFunctionalSinhCoshTest hard`
     * в качестве рабочей директории при запуске тестов указывать `hw13-clj-functional/src`
 14. Объектные выражения на Clojur ([условия](hw14-clj-object/tasks.md), [решение](hw14-clj-object))
     * запуск тестов для базовой модификации: `ClojureObjectExpressionTest easy` или `ClojureObjectExpressionTest hard`
